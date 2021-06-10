@@ -1,5 +1,5 @@
 
-
+                    GRADIENT BACKGROUND GENERATOR
 
                     Multi color gradient Generator.
                               Use with care.
