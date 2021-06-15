@@ -1,12 +1,12 @@
 body {
 	font: 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    top: 15%;
-		background: linear-gradient(to right, rgb(248, 214, 48), rgb(255, 117, 152));
-	/* background: linear-gradient(to right, red , yellow); /* Standard syntax */
+    	color: rgba(0,0,0,.5);
+    	text-align: center;
+    	text-transform: uppercase;
+    	letter-spacing: .5em;
+   	top: 15%;
+/* 	background: linear-gradient(to right, rgb(248, 214, 48), rgb(255, 117, 152)); */
+	background: linear-gradient(to right, rgb(225, 250, 189), rgb(255, 194, 194)); /* Standard syntax */
 
 }
 
