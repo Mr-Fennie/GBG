@@ -1,12 +1,12 @@
 body {
 	font: 'Raleway', sans-serif;
-    	color: rgba(0,0,0,.5);
-    	text-align: center;
-    	text-transform: uppercase;
-    	letter-spacing: .5em;
-   	top: 15%;
-/* 	background: linear-gradient(to right, rgb(248, 214, 48), rgb(255, 117, 152)); */
-	background: linear-gradient(to right, rgb(225, 250, 189), rgb(255, 194, 194)); /* Standard syntax */
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    top: 15%;
+		/* background: linear-gradient(to right, rgb(248, 214, 48), rgb(255, 117, 152)); */
+	background: linear-gradient(to right, rgb(225, 250, 189), rgb(255, 194, 194));  /* Standard syntax */
 
 }
 
@@ -15,8 +15,9 @@ h1 {
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: .5em;
-    width: 100%;
+    letter-spacing: .4em;
+    /* width: 100%; */
+		margin: 5%;
 }
 
 h3 {
@@ -26,6 +27,10 @@ h3 {
     text-transform: none;
     letter-spacing: 0.01em;
 
+}
+
+h2{
+	margin: 5%;
 }
 
 .btn-group{
@@ -79,18 +84,56 @@ h3 {
 
 @media only screen and (max-width: 690px) {
 	h1{
-	 font-size: 1.5em;
+	 font-size: 2em;
 	}
 	body{
 	 font-size: 1em;
 
 	}
 	.tab {
+		font-size: 1.1em;
 	    overflow: hidden;
 	    border: 1px solid #ccc;
 	    background-color: #f1f1f1;
 	}
 	h2{
-		font-size: 1em;
+		font-size: 1.2em;
+	}
+	.tab button {
+		  background-color: inherit;
+		  float: center;
+		  border: none;
+		  outline: none;
+		  cursor: pointer;
+		  padding: 10px 14px;
+		  transition: 0.3s;
 	}
 	}
+
+	@media only screen and (max-width: 420px) {
+		h1{
+		 font-size: 1.5em;
+		}
+		body{
+		 font-size: 1em;
+
+		}
+		.tab {
+			font-size: 1em;
+		    overflow: hidden;
+		    border: 1px solid #ccc;
+		    background-color: #f1f1f1;
+		}
+		h2{
+			font-size: 1em;
+		}
+		.tab button {
+			  background-color: inherit;
+			  float: center;
+			  border: none;
+			  outline: none;
+			  cursor: pointer;
+			  padding: 10px 14px;
+			  transition: 0.3s;
+		}
+		}
